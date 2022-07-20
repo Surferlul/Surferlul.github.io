@@ -1,10 +1,10 @@
-## How
+# How
 
 All of the gdm display manager configurations are managed by the gdm user. Usually, options are controlled by obscure config files, and I have always found it to be an annoyance trying to find a way to change settings in gdm (example: try figuring out how to properly change the keyboard layout selection in gdm).
 
 But since all the settings (which are regular gnome settings) are managed by gdm you can change them by gaining access to the gdm account and launching settings applications (gnome-control-center, gnome-tweaks, dconf-editor, dconf, gsettings, etc...). For some settings, you don't even need desktop access (changing the keyboard layout selection), but for others you do (changing display resolution), so I'll go over two methods.
 
-## No desktop access
+# No desktop access
 
 We can (after providing the gdm user authorization rights) simply execute applications as the gdm user and change settings.
 
@@ -32,7 +32,7 @@ Now revoke authorization rights again:
 xhost -SI:localuser:gdm
 ~~~
 
-### With desktop access
+# With desktop access
 
 You can gain access to an entire gnome desktop as the user gdm. From there you can launch and configure how you want and will gain access to some settings like display resolution
 
