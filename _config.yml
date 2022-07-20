@@ -147,13 +147,13 @@ footer:
       url: "https://discord.com/users/482209488808574976"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://gitlab.com/Surferlul"
+      url: "https://twitter.com/Surferlul"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://gitlab.com/Surferlul"
+      url: "https://facebook.com/lukas.baumann.161"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://gitlab.com/Surferlul"
+      url: "https://github.com/Surferlul"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/Surferlul"
@@ -162,7 +162,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://gitlab.com/Surferlul"
+      url: "https://instagram.com/Surferlul"
 
 
 # Reading Files
