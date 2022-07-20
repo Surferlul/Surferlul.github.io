@@ -3,7 +3,7 @@ title: My Projects
 layout: single
 permalink: /projects
 page_css:
-  - /assets/css/dark.css
+  - /assets/css/dark.scss
 ---
 
 
