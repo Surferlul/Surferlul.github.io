@@ -109,10 +109,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Lu Baumann"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "18 y/o Dev
+  
+  It is better to die cringe than to live Windows user"
+  location         : "[Ilmenau, Germany](https://www.google.com/maps/place/Ilmenau)"
   email            :
   links:
     - label: "Email"
