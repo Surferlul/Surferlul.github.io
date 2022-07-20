@@ -1,9 +1,7 @@
 ---
 layout: single
 title: My Projects
-classes:
-  - dark-theme
-  - landing
+minimal_mistakes_skin: "dark"
 ---
 
 
