@@ -3,6 +3,7 @@ layout: single
 title: My Projects
 classes:
   - dark-theme
+  - landing
 ---
 
 
