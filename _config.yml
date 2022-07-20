@@ -111,7 +111,7 @@ analytics:
 author:
   name             : "Lu Baumann"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "18 y/o Dev<br />*It is better to die cringe than to live Windows user*<br />&#127987;&#127987;&#127987;"
+  bio              : "18 y/o Dev<br />*It is better to die cringe<br />than to live Windows user*<br />&#127987;&#127987;&#127987;"
   location         : "[Ilmenau, Germany](https://www.google.com/maps/place/Ilmenau)"
   email            :
   links:
