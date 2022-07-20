@@ -123,6 +123,19 @@ author:
   location         : "Ilmenau, Germany"
   email            : "lukasabaumann@gmail.com"
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://surferlul.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Surferlul"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/Surferlul"
+
+# Site Footer
+footer:
+  links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:lukasabaumann@gmail.com"
@@ -132,28 +145,6 @@ author:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.com/users/482209488808574976"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://surferlul.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/surferlul"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/lukas.baumann.161"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Surferlul"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/Surferlul"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/Surferlul"
-
-# Site Footer
-footer:
-  links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://gitlab.com/Surferlul"
