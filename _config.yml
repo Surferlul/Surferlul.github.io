@@ -121,7 +121,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "18 y/o Dev<br />*It is better to die cringe<br />than to live Windows user*"
   location         : "Ilmenau, Germany"
-  email            :
+  email            : "lukasabaumann@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
