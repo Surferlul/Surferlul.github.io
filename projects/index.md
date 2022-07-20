@@ -1,4 +1,10 @@
-## My Projects
+---
+layout: single
+title: My Projects
+classes:
+  - dark-theme
+---
+
 
 - ### [Themes](https://surferlul.github.io/Themes)
 - ### [Beatsaber Unofficial Camellia Pack](https://surferlul.github.io/Unofficial-Camellia-Pack)
