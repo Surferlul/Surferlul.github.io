@@ -1,7 +1,8 @@
 ---
 layout: single
 title: My Projects
-minimal_mistakes_skin: "dark"
+page_css:
+  - /assets/css/dark.css
 ---
 
 
