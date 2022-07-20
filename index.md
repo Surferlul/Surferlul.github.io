@@ -1,4 +1,4 @@
-<!--
+<!---
 # GNU/Linux
 
 ## GNOME
@@ -8,4 +8,4 @@
 ## Virtual Machines
 
 - ### [VM Input Devices](https://surferlul.github.io/input-devices-to-vm/)
---i>
+-->
