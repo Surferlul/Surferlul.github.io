@@ -112,7 +112,7 @@ author:
   name             : "Lu Baumann"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "18 y/o Dev<br />*It is better to die cringe<br />than to live Windows user*"
-  location         : "test<a href=\"https://www.google.com/maps/place/Ilmenau\">Ilmenau</a>test"
+  location         : "Ilmenau, Germany"
   email            :
   links:
     - label: "Email"
