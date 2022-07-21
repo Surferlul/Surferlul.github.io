@@ -10,7 +10,7 @@ But why not use the passthrough? First of all, you can't pass all devices as usb
 
 But doesn't qemu allow for evdev passthrough? Well yes, but from my experience it's complete trash. It works for simple cases like a usb mouse or a keyboard. But anything else doesn't work properly.
 
-This post shows a way to pass any input device (available in evdev) to a guest system. The devices will behave the same as they behave on the host machine. This method also allows switching between guest and host machine control with a simple keyboard shortcut (NOT IMPLEMENTED YET).
+This post shows a way to pass any input device (available in evdev) to a guest system. The devices will behave the same as they behave on the host machine. This method also allows switching between guest and host machine control with a simple keyboard shortcut.
 
 # Setting up the VM
 
@@ -88,4 +88,4 @@ Now you can modify the "host" and "guest" script respectively. The guest script 
 
 To find a event for a device you can cat the event files in /dev/input, /dev/input/by-path and /dev/input/by-id. Try not to use the files in /dev/input, because those can change in contrary to the files in by-path and by-id. If you need to you can also switch the server and client roles around ("--server" and "--client"). But you'll also need to modify the ip addresses (probably 192.168.122.1 for the guest client and 0.0.0.0 for the host server).
 
-Now you can start the server and then the client. You can switch between host and guest inputs by holding left and right control keys simultaneously (NOT IMPLEMENTED YET).
+Now you can start the server and then the client. You can switch between host and guest inputs by holding left and right control keys simultaneously. To quit press left control, right control and backspace simultaneously.
