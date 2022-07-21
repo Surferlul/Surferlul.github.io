@@ -1,3 +1,7 @@
+---
+title: Configure GDM
+---
+
 # How
 
 All of the gdm display manager configurations are managed by the gdm user. Usually, options are controlled by obscure config files, and I have always found it to be an annoyance trying to find a way to change settings in gdm (example: try figuring out how to properly change the keyboard layout selection in gdm).
