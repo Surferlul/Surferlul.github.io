@@ -48,18 +48,18 @@ Setting a password for gdm:
 sudo passwd gdm
 ~~~
 
-![password example](https://raw.githubusercontent.com/Surferlul/configuring-gdm/gh-pages/pictures/gdm_password.png)
+![password example](https://raw.githubusercontent.com/Surferlul/Surferlul.github.io/main/assets/images/configure-gdm/gdm_password.png)
 
 Now you can log out of your account and into gdm. You must press the "Not listed?" option in the user overview to log into gdm.
 
-![Not listed?](https://raw.githubusercontent.com/Surferlul/configuring-gdm/gh-pages/pictures/login_page.png)
+![Not listed?](https://raw.githubusercontent.com/Surferlul/Surferlul.github.io/main/assets/images/configure-gdm/login_page.png)
 
 Now enter the username "gdm" and your chosen password to access the desktop.
 
-![Username](https://raw.githubusercontent.com/Surferlul/configuring-gdm/gh-pages/pictures/uname.png)
+![Username](https://raw.githubusercontent.com/Surferlul/Surferlul.github.io/main/assets/images/configure-gdm/uname.png)
 
-![Password](https://raw.githubusercontent.com/Surferlul/configuring-gdm/gh-pages/pictures/passwd.png)
+![Password](https://raw.githubusercontent.com/Surferlul/Surferlul.github.io/main/assets/images/configure-gdm/passwd.png)
 
-![Desktop](https://raw.githubusercontent.com/Surferlul/configuring-gdm/gh-pages/pictures/desktop.png)
+![Desktop](https://raw.githubusercontent.com/Surferlul/Surferlul.github.io/main/assets/images/configure-gdm/desktop.png)
 
 Voilà! No gdm configuration pain anymore.
