@@ -1,5 +1,5 @@
-https://Surferlul.github.io
-https://Surferlul.github.io/configure-gdm/
-https://Surferlul.github.io/input-to-vm/
-https://Surferlul.github.io/posts/
-https://Surferlul.github.io/Projects/
+https://blog.surferlul.me
+https://blog.surferlul.me/configure-gdm/
+https://blog.surferlul.me/input-to-vm/
+https://blog.surferlul.me/posts
+https://blog.surferlul.me/Projects/
