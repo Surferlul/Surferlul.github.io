@@ -123,9 +123,6 @@ author:
   location         : "Ilmenau, Germany"
   email            : "lukasabaumann@gmail.com"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://surferlul.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Surferlul"
