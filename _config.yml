@@ -118,7 +118,7 @@ analytics:
 # Site Author
 author:
   name             : "Lu Baumann"
-  avatar           : "/assets/images/gravatar.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars.githubusercontent.com/u/66851546" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "*It is better to die cringe<br />than to live Windows user*"
   location         : "Ilmenau, Germany"
   email            : "lukasabaumann@gmail.com"
