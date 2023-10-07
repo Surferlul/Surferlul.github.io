@@ -40,7 +40,7 @@ tag, located in
 <devices>
 ~~~
 
-This will allow the mouse cursor to move from inside of the VM. This is also needed for any other type of passthrough, for example USB passthrough. But the displayed cursor lags all of the time, only updating its position if it mouses over a animated element. A way to get around this in GNOME and GDM is by enabling the Zoom feature in the Accessibility menu. Set the magnification factor to 1.0 and enable it. Now the mouse cursor is smooth, and the content is still displayed properly. Configure this for your GNOME desktop and GDM. For configuring the magnification factor check out [Configure GDM](/configure-gdm). To change the magnification factor from the terminal, execute
+This will allow the mouse cursor to move from inside of the VM. This is also needed for any other type of passthrough, for example, USB passthrough. But the displayed cursor lags all of the time, only updating its position if it mouses over an animated element. A way to get around this in GNOME and GDM is by enabling the Zoom feature in the Accessibility menu. Set the magnification factor to 1.0 and enable it. Now the mouse cursor is smooth, and the content is still displayed properly. Use Wayland for this approach, because X11 will lag. Configure this for your GNOME desktop and GDM. For configuring the magnification factor in GDM check out [Configure GDM](/configure-gdm). To change the magnification factor from the terminal, execute
 
 ~~~bash
 dconf write /org/gnome/desktop/a11y/magnifier/mag-factor 1.0
@@ -48,7 +48,7 @@ dconf write /org/gnome/desktop/a11y/magnifier/mag-factor 1.0
 
 # Setting up the script
 
-Now install [remote-evdev-python](https://github.com/Surferlul/remote-evdev-python) on your host and guest machine. For this you need a minimum python version of 3.10 with pip installed.
+Now install [remote-evdev-python](https://github.com/Surferlul/remote-evdev-python) on your host and guest machine. For this, you need a minimum Python version of 3.10 with pip installed.
 
 ~~~bash
 git clone https://github.com/Surferlul/remote-evdev-python
@@ -56,13 +56,20 @@ cd remote-evdev-python
 ./setup <machine type>
 ~~~
 
-replace \<machine type\> with guest, host, or nothing (for both) respectively. Check for Permission errors. On the guest you need permission to /dev/uinput. On the hosts you need permissions to /dev/input/event\*. Permissions for these devices are often handled through the "input" group. Consider adding yourself to the group, or modifying the permissions for the input devices.
+replace `<machine type>` with guest, host, or nothing (for both) respectively. Check for Permission errors. On the guest, you need permission to `/dev/uinput`. On the hosts, you need permissions to `/dev/input/event\*`. You can execute the scripts as root. If you use root you will have to install the directory `./remote-evdev/` as root.
+
+~~~bash
+sudo pip3 install ./remote-evdev/
+~~~
+
+If you want to execute them as an unprivileged user, you have to give yourself the permissions. Permissions for these devices are often handled through the "input" group. Consider adding yourself to the group, or modifying the permissions for the input devices. For `/dev/uinput` you also have to modify group permissions.
 
 ~~~bash
 # Add yourself to the group
 sudo usermod -aG input $USER
 # Modify permissions for uinput
 sudo chown root:input /dev/uinput
+sudo chmod +060 /dev/uinput
 # Modify permissions for event devices
 sudo chown root:input /dev/input/event*
 ~~~
